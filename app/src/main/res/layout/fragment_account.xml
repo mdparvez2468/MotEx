@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#3F51B5"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:typeface="serif"
+        android:layout_margin="10dp"
+        android:text="Account" />
+
+    <TextView
+        android:id="@+id/userPhoneTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number : 01736194336"
+        android:gravity="center"
+        android:textColor="@color/select"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/signOutBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:backgroundTint="#F44336"
+        android:textColor="@color/white"
+        android:text="Sign out"/>
+
+</LinearLayout>
